@@ -90,6 +90,65 @@
       ],
       "ast": [
         "aggregate/ast/24d7c0078d223a3adf888fb46d2db46b80cafb52/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/24d7c0078d223a3adf888fb46d2db46b80cafb52.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "1.7.0",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubCommit": "0c5a166183764aeb3fd1fba799caea489f20682f",
+          "githubTag": "v1.7.0",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "tqdm",
+          "ecosystem": "PYPI",
+          "version": "4.10.0",
+          "githubOrg": "tqdm",
+          "githubRepo": "tqdm",
+          "githubCommit": "bbf08db39931fd6cdff5f8ab42e54148f8b4faa4",
+          "githubTag": "v4.10.0",
+          "githubUrl": "https://github.com/tqdm/tqdm",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "srsly",
+          "ecosystem": "PYPI",
+          "version": "1.0.1",
+          "githubOrg": "explosion",
+          "githubRepo": "srsly",
+          "githubCommit": "77d1aa71fa72f457ac8aa60e2fd77fa0c177e90e",
+          "githubTag": "v1.0.1",
+          "githubUrl": "https://github.com/explosion/srsly",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "catalogue",
+          "ecosystem": "PYPI",
+          "version": "0.2.0",
+          "githubOrg": "explosion",
+          "githubRepo": "catalogue",
+          "githubCommit": "f7349fd5385a00ad8e1250d879b106b341f3309d",
+          "githubTag": "v0.2.0",
+          "githubUrl": "https://github.com/explosion/catalogue",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        }
       ]
     }
   ],
